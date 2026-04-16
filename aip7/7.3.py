@@ -1,0 +1,6 @@
+days = ("Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье")
+number = int(input("Сколько выходных на неделе Вы хотите: "))
+weekends = list(days[-number:])
+workdays = list(days[:-number])
+print(f"Ваши выходные дни: {weekends}")
+print(f"Ваши рабочие дни: {workdays}")
